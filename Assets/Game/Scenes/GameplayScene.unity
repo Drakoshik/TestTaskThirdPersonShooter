@@ -948,51 +948,6 @@ Transform:
   - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &776109818 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2938531354976604259, guid: b66577cd2f862d44d8277051fd16a468,
-    type: 3}
-  m_PrefabInstance: {fileID: 242138941836152393}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &776109822 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1300520096230992252, guid: b66577cd2f862d44d8277051fd16a468,
-    type: 3}
-  m_PrefabInstance: {fileID: 242138941836152393}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776109818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b4fb8d27c6ff5f4f8b27481bccab1eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &776109826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776109818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3ec80de6c2ad54489f30dc2d6182f50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDamageTaken:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 776109822}
-        m_TargetAssemblyTypeName: TPS.Engine.Features.Enemies.EnemyHealth, TPS.Engine.Features.Enemies
-        m_MethodName: TakeDamage
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,12 +997,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &840131612 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5196692885006595339, guid: dc6fd23472e79d1439529e836f51ecc2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1244688037852705410}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &906202260
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,39 +1137,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1244688037852705410}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840131612}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1b0bdbc8dc4e334fa9bc9ba5a5bee7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &937528862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840131612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3ec80de6c2ad54489f30dc2d6182f50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnDamageTaken:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1460821231}
-        m_TargetAssemblyTypeName: TPS.Engine.Features.GameplayFlow, TPS
-        m_MethodName: GameOver
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1460821230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,24 +1367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DroneGuard
       objectReference: {fileID: 0}
-    - target: {fileID: 4701731543433845354, guid: b66577cd2f862d44d8277051fd16a468,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7453390042049196849, guid: b66577cd2f862d44d8277051fd16a468,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.25
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2938531354976604259, guid: b66577cd2f862d44d8277051fd16a468,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 776109826}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b66577cd2f862d44d8277051fd16a468, type: 3}
 --- !u!1001 &1244688037852705410
 PrefabInstance:
@@ -1477,31 +1385,6 @@ PrefabInstance:
       propertyPath: _inputHolder
       value: 
       objectReference: {fileID: 937528850}
-    - target: {fileID: 1455547459253700294, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.3880001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544638017836390971, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_Height
-      value: 1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544638017836390971, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544638017836390971, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544638017836390971, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1578677970762203165, guid: dc6fd23472e79d1439529e836f51ecc2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1552,65 +1435,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2700613834624474954, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.78
-      objectReference: {fileID: 0}
     - target: {fileID: 4242245107571347766, guid: dc6fd23472e79d1439529e836f51ecc2,
         type: 3}
       propertyPath: OnDamageTaken.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1460821231}
-    - target: {fileID: 4242245107571347766, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: OnDamageTaken.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 4242245107571347766, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: OnDamageTaken.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TPS.Engine.Features.GameplayFlow, TPS
-      objectReference: {fileID: 0}
-    - target: {fileID: 4496740118956113227, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: _damage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4496740118956113227, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: _fireRate
-      value: 0.05
-      objectReference: {fileID: 0}
     - target: {fileID: 4496740118956113227, guid: dc6fd23472e79d1439529e836f51ecc2,
         type: 3}
       propertyPath: _inputHolder
       value: 
       objectReference: {fileID: 937528850}
-    - target: {fileID: 5054635102384510995, guid: dc6fd23472e79d1439529e836f51ecc2,
+    - target: {fileID: 5637941206838569680, guid: dc6fd23472e79d1439529e836f51ecc2,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: OnDamageTaken.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1460821231}
     - target: {fileID: 5854536356615066516, guid: dc6fd23472e79d1439529e836f51ecc2,
         type: 3}
       propertyPath: m_Name
       value: PlayerHolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 6026709842711996549, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7930687448274701355, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: _damage
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7930687448274701355, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      propertyPath: _fireRate
-      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 7930687448274701355, guid: dc6fd23472e79d1439529e836f51ecc2,
         type: 3}
@@ -1620,11 +1463,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5196692885006595339, guid: dc6fd23472e79d1439529e836f51ecc2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 937528862}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc6fd23472e79d1439529e836f51ecc2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
