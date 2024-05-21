@@ -1,0 +1,18 @@
+{
+    "name": "TPS.Engine.Features.StateMachine",
+    "rootNamespace": "TPS",
+    "references": [
+        "GUID:88be65f96b86746888c927a5c8ff3534",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:5c01796d064528144a599661eaab93a6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "TPS.Engine.Features.Player",
+    "rootNamespace": "TPS",
+    "references": [
+        "GUID:88be65f96b86746888c927a5c8ff3534",
+        "GUID:9e5cfa6bc16cfb04690da33ba687fade",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:fe417fc3f26d2434c95ff5220b048b57",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:7f7d1af65c2641843945d409d28f2e20",
+        "GUID:3d44821b88c2df74089c0a6bacf6af0d",
+        "GUID:4211e5b81d89af940acf3c6a9b427490"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
